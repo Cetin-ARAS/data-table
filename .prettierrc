@@ -1,0 +1,26 @@
+{
+  "printWidth": 180,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "arrowParens": "always",
+  "endOfLine": "auto",
+  "importOrder": [
+    "react",
+    "^next(.*)$",
+    "<THIRD_PARTY_MODULES>",
+    "@components",
+    "@utils",
+    "@helpers",
+    "@store",
+    "@models",
+    "css/(.*).css",
+    "dist/(.*).css",
+    "^@styles/(.*)$",
+    "^@public/(.*)$",
+    "^[./]"
+  ]
+}
