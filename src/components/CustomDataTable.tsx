@@ -24,7 +24,7 @@ const CustomDataTable = ({ data }: Props) => {
   const columns: TableColumn<IDataRow>[] = [
     {
       name: 'Sosyal Medya Linki',
-      selector: (row ) => row.socialLink,
+      selector: (row) => row.socialLink,
       sortable: true,
     },
     {
@@ -38,7 +38,7 @@ const CustomDataTable = ({ data }: Props) => {
     },
   ];
 
-  return <DataTable count pagination striped customStyles={styles} columns={columns} data={data} noDataComponent={<p className="py-10">Seçenek Yok</p>} />;
+  return <DataTable pagination striped customStyles={styles} columns={columns} data={data} noDataComponent={<p className="py-10">Seçenek Yok</p>} />;
 };
 
 export default CustomDataTable;
